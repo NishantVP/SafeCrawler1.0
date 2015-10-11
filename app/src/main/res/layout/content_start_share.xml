@@ -20,11 +20,24 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="StartService"
+        android:text="Start Service"
         android:id="@+id/StartServiceButton"
+        android:layout_marginBottom="105dp"
+        android:onClick="onClickStartServiceButton"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="119dp"
-        android:onClick="onClickStartServiceButton"/>
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Location"
+        android:id="@+id/StopLocationCallbackButton"
+        android:layout_marginBottom="105dp"
+        android:onClick="onClickStopLocationCallbackButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
 
 </RelativeLayout>

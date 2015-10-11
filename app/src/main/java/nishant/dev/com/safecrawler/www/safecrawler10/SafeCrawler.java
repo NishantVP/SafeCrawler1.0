@@ -13,6 +13,9 @@ public class SafeCrawler extends Application {
         super.onCreate();
 
         Parse.enableLocalDatastore(this);
-        Parse.initialize(this, "PARSE_APPLICATION_ID", "PARSE_CLIENT_KEY");
+        Parse.initialize(this, ParseKeys.ParseKey1, ParseKeys.ParseKey2);
+        // Note: I have declared string constants in a class named ParseKeys.
+        // This class is not shared on GitHub for Maintaining the privacy
+        // Add your Parse ApplicationID and Client Key there
     }
 }

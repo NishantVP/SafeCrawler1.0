@@ -38,6 +38,12 @@ public class StartShareActivity extends AppCompatActivity {
         this.startService(i);
     }
 
+    public void onClickStopLocationCallbackButton(View view)
+    {
+        // Remove the listener you previously added
+        //locationManager.removeUpdates(locationListener);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
